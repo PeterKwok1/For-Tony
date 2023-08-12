@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <link rel="stylesheet" href="app/scss/style.css">
+</head>
+
+<body>
+    <h1>Playground</h1>
+
+    <div id="wrapper">
+        <div id="inputs" class="card">
+            <label for="payer">Payer
+                <input id="payer" class="input" type="text">
+            </label>
+            <label for="recipient">Recipient
+                <input id="recipient" class="input" type="text">
+            </label>
+            <label for="amount">Amount
+                <input id="amount" class="input" type="number">
+            </label>
+            <label for="description">Description
+                <input id="description" class="input" type="text">
+            </label>
+            <div id="submit">Submit</div>
+        </div>
+        <div id="transaction_history" class="card"></div>
+        <div id="balance" class="card"></div>
+    </div>
+
+    <script src="app/js/script.js"></script>
+</body>
+
+</html>
